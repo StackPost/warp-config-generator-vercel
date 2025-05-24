@@ -10,6 +10,7 @@ export default function Home() {
           <AlertTitle>Telegram Bot для генерации конфигов WARP</AlertTitle>
           <AlertDescription className="break-words">
             Создал бота для генерации конфигов, если сайт вдруг перестанет работать:{" "}
+            <a href="#" className="font-medium">
               Warp Generator Bot
             </a>
           </AlertDescription>
@@ -18,13 +19,12 @@ export default function Home() {
           <Image src="/logo.svg" alt="Логотип" width={300} height={300}/>
           <WarpGenerator/>
           <Button asChild className="w-full">
-            <a href="https://drive.google.com/file/d/12mRwExGZxQceXW1LtD32s7IJ7xDnJAbE/view">AmneziaWG</a>
+            <a href="#">Awg</a>
           </Button>
-         <!-- <p className="text-sm text-muted-foreground">
+          <p className="text-sm text-muted-foreground">
             Пожалуйста, поддержите меня на GitHub, поставив звезду.
-          </p> -->
+          </p>
         </div>
       </main>
   )
 }
-
