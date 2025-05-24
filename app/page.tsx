@@ -19,20 +19,14 @@ export default function Home() {
           <Image src="/logo.svg" alt="Логотип" width={300} height={300}/>
           <WarpGenerator/>
           <Button asChild className="w-full">
-            <a href="https://t.me/warp_generator_bot">Warp Generator Bot</a>
+            <a href="https://t.me/warp_generator_bot">AmneziaWG</a>
           </Button>
           <Button asChild className="w-full">
             <a href="https://t.me/findllimonix">Telegram канал</a>
           </Button>
-          <Button asChild className="w-full">
-            <a href="https://t.me/vuchaev2015">ToporWarp Telegram</a>
-          </Button>
-          <Button asChild className="w-full">
-            <a href="https://github.com/nellimonix/warp-config-generator-vercel">GitHub репозиторий</a>
-          </Button>
-          <p className="text-sm text-muted-foreground">
+         <!-- <p className="text-sm text-muted-foreground">
             Пожалуйста, поддержите меня на GitHub, поставив звезду.
-          </p>
+          </p> -->
         </div>
       </main>
   )
