@@ -19,10 +19,16 @@ export default function Home() {
           <Image src="/logo.svg" alt="Логотип" width={300} height={300}/>
           <WarpGenerator/>
           <Button asChild className="w-full">
-            <a href="#">Awg</a>
+            <a href="https://github.com/amnezia-vpn/amneziawg-windows-client/releases/download/1.0.0/amneziawg-amd64-1.0.0.msi">amneziawg-amd64-1.0.0.msi</a>
+          </Button>
+           <Button asChild className="w-full">
+            <a href="https://github.com/amnezia-vpn/amneziawg-windows-client/releases/download/1.0.0/amneziawg-arm64-1.0.0.msi">amneziawg-arm64-1.0.0.msi</a>
+          </Button>
+           <Button asChild className="w-full">
+            <a href="https://github.com/amnezia-vpn/amneziawg-windows-client/releases/download/1.0.0/amneziawg-x86-1.0.0.msi">amneziawg-x86-1.0.0.msi</a>
           </Button>
           <p className="text-sm text-muted-foreground">
-            Пожалуйста, поддержите меня на GitHub, поставив звезду.
+            AmneziaWG 1.0.0 for Windows
           </p>
         </div>
       </main>
