@@ -19,16 +19,16 @@ export default function Home() {
           <Image src="/logo.svg" alt="Логотип" width={300} height={300}/>
           <WarpGenerator/>
           <Button asChild className="w-full">
-            <a href="https://github.com/amnezia-vpn/amneziawg-windows-client/releases/download/1.0.0/amneziawg-amd64-1.0.0.msi">amneziawg-amd64-1.0.0.msi</a>
+            <a href="https://github.com/amnezia-vpn/amneziawg-windows-client/releases/download/1.0.0/amneziawg-amd64-1.0.0.msi">AmneziaWG x64</a>
+          </Button>
+          <Button asChild className="w-full">
+            <a href="https://github.com/amnezia-vpn/amneziawg-windows-client/releases/download/1.0.0/amneziawg-x86-1.0.0.msi">AmneziaWG x86</a>
           </Button>
            <Button asChild className="w-full">
-            <a href="https://github.com/amnezia-vpn/amneziawg-windows-client/releases/download/1.0.0/amneziawg-arm64-1.0.0.msi">amneziawg-arm64-1.0.0.msi</a>
-          </Button>
-           <Button asChild className="w-full">
-            <a href="https://github.com/amnezia-vpn/amneziawg-windows-client/releases/download/1.0.0/amneziawg-x86-1.0.0.msi">amneziawg-x86-1.0.0.msi</a>
+            <a href="https://github.com/amnezia-vpn/amneziawg-windows-client/releases/download/1.0.0/amneziawg-arm64-1.0.0.msi">AmneziaWG ARM</a>
           </Button>
           <p className="text-sm text-muted-foreground">
-            AmneziaWG 1.0.0 for Windows
+            Version 1.0.0
           </p>
         </div>
       </main>
